@@ -142,17 +142,18 @@ const Guide = ({ data, pageContext }) => {
 
       <Content>
         <Overview>
-          {overview && (
+
+          {entries.length > 0 && <TableOfContents entries={entries} />}
+        </Overview>
+
+        <Detail>
+         {overview && (
             <>
               <OverviewTitle>Overview</OverviewTitle>
               <OverviewDesc>{overview}</OverviewDesc>
             </>
           )}
 
-          {entries.length > 0 && <TableOfContents entries={entries} />}
-        </Overview>
-
-        <Detail>
           <div dangerouslySetInnerHTML={{ __html: html }} />
 
           <Contributors authors={authors} contributors={contributors} />
