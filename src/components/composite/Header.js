@@ -269,7 +269,7 @@ export default function Header({ guides, githubUrl, isInverted, ...props }) {
   const mobileMenu = (
     <MobileMenu>
       <MobileMenuColumn>
-        <MenuHeading>Guides</MenuHeading>
+        <MenuHeading>Themes</MenuHeading>
         {guideList}
       </MobileMenuColumn>
 
@@ -307,7 +307,7 @@ export default function Header({ guides, githubUrl, isInverted, ...props }) {
           <NavItem isInverted={isInverted} showDesktop>
             <WithTooltip placement="bottom" trigger="click" closeOnClick tooltip={guideList}>
               <NavTextLinkExternal inverse={isInverted} tertiary onClick={preventDefault}>
-                Guides <Icon icon="arrowdown" />
+                Themes <Icon icon="arrowdown" />
               </NavTextLinkExternal>
             </WithTooltip>
           </NavItem>
@@ -316,17 +316,6 @@ export default function Header({ guides, githubUrl, isInverted, ...props }) {
             <NavTextLinkInternal tertiary inverse={isInverted} to="/team">
               Team
             </NavTextLinkInternal>
-          </NavItem>
-
-          <NavItem isInverted={isInverted} showDesktop>
-            <NavTextLinkExternal
-              tertiary
-              inverse={isInverted}
-              href="https://storybook.js.org/"
-              rel="noopener"
-            >
-              Storybook
-            </NavTextLinkExternal>
           </NavItem>
 
           <MobileMenuNavItem showMobile>
@@ -343,11 +332,6 @@ export default function Header({ guides, githubUrl, isInverted, ...props }) {
             </WithTooltip>
           </MobileMenuNavItem>
 
-          <GithubNavItem className="chromatic-ignore" isInverted={isInverted}>
-            <GitHubWrapper>
-              <GitHubButton type="stargazers" namespace={namespace} repo={repo} />
-            </GitHubWrapper>
-          </GithubNavItem>
         </NavGroup>
       </Nav>
     </NavWrapper>
