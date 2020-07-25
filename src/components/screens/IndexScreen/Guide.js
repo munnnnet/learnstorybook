@@ -67,18 +67,14 @@ const StyledIcon = styled(Icon)`
 
 const Guide = ({ chapterCount, description, imagePath, themeColor, title, ...props }) => (
   <GuideWrapper themeColor={themeColor} {...props}>
+    <GuideImageWrapper>{imagePath && <GuideImage src={imagePath} alt={title} />}</GuideImageWrapper>
+
     <div>
       <GuideTitle>
         {title} <StyledIcon icon="arrowrightalt" />
       </GuideTitle>
       <GuideDescription>{description}</GuideDescription>
-
-      {chapterCount && (
-        <GuideChapterCount>{pluralize('Chapter', chapterCount, true)}</GuideChapterCount>
-      )}
     </div>
-
-    <GuideImageWrapper>{imagePath && <GuideImage src={imagePath} alt={title} />}</GuideImageWrapper>
   </GuideWrapper>
 );
 
