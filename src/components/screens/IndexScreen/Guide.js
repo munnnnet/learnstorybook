@@ -10,7 +10,7 @@ const GuideWrapper = styled.span`
   display: block;
   background: ${props => props.themeColor};
   color: ${color.lightest};
-  padding: 40px;
+  padding: 30px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
