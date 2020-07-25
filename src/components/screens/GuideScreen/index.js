@@ -54,7 +54,7 @@ const Detail = styled.div`
 
   @media (min-width: ${breakpoint * 1.5}px) {
     margin-top: 0;
-    margin-right: 84px;
+    margin-right: 42px;
     width: 80%;
   }
 

@@ -8,7 +8,7 @@ import BoxLink from '../../basics/BoxLink';
 const { color, typography } = styles;
 
 const BoxLinkWrapper = styled(BoxLink).attrs({ isInternal: true })`
-  padding: 20px 28px;
+  padding: 10px 14px;
   line-height: 20px;
 
   &&,
@@ -28,7 +28,7 @@ const ChapterNumber = styled.div`
   font-size: ${typography.size.m1}px;
   line-height: 24px;
   color: ${color.mediumdark};
-  margin-right: 28px;
+  margin-right: 14px;
 `;
 
 const ChapterTitle = styled.div`
