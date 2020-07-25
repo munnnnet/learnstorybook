@@ -141,11 +141,6 @@ const Guide = ({ data, pageContext }) => {
       />
 
       <Content>
-        <Overview>
-
-          {entries.length > 0 && <TableOfContents entries={entries} />}
-        </Overview>
-
         <Detail>
          {overview && (
             <>
@@ -158,6 +153,11 @@ const Guide = ({ data, pageContext }) => {
 
           <Contributors authors={authors} contributors={contributors} />
         </Detail>
+
+       <Overview>
+          {entries.length > 0 && <TableOfContents entries={entries} />}
+        </Overview>
+
       </Content>
     </>
   );
