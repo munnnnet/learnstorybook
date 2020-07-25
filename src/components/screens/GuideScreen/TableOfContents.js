@@ -56,7 +56,7 @@ const ChapterList = styled.ol`
 
 const TableOfContents = ({ entries }) => (
   <>
-    <Subheading>Table of Contents</Subheading>
+    <Subheading>Documentation</Subheading>
 
     <ChapterList>
       {entries.map((entry, index) => (
