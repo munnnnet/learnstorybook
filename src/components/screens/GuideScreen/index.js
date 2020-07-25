@@ -29,8 +29,7 @@ const Content = styled.div`
 
 const Overview = styled.div`
   @media (min-width: ${breakpoint * 1.5}px) {
-    margin-right: 84px;
-    width: 50%;
+    width: 20%;
   }
 `;
 
@@ -55,7 +54,8 @@ const Detail = styled.div`
 
   @media (min-width: ${breakpoint * 1.5}px) {
     margin-top: 0;
-    width: 50%;
+    margin-right: 84px;
+    width: 80%;
   }
 
   a {
