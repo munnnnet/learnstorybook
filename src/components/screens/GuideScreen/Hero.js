@@ -180,6 +180,10 @@ const Hero = ({
 
         {description && <PitchDescription>{description}</PitchDescription>}
 
+        <GatsbyLink to="#cta-download">
+          <GetStartedButton>Download here</GetStartedButton>
+        </GatsbyLink>
+
         {languages.length > 0 && (
           <Languages>
             <LanguagesLabel>Languages: </LanguagesLabel>
@@ -191,7 +195,7 @@ const Hero = ({
           </Languages>
         )}
         <StatWrapper>
-          {contributorCount && <Stat value={contributorCount} label="Platform" />}
+          {contributorCount && <Stat value={contributorCount} label="Platfroms" />}
           {chapterCount && <Stat value={chapterCount} label="Documentations" />}
         </StatWrapper>
       </Pitch>
