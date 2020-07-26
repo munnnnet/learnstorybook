@@ -10,13 +10,6 @@ const scrollTo = (id) => () => {
   return false
 }
 
-export const onRouteUpdate = ({ location: { hash } }) => {
-  console.log(location)
-  if (hash) {
-    window.setTimeout(scrollTo(hash), 10)
-  }
-}
-
 exports.onRouteUpdateDelayed = () => {
   const loadingElement = document.createElement('div');
   loadingElement.id = LOADING_ID;
