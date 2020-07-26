@@ -28,14 +28,14 @@ authors:
 contributors: []
 ---
 
-<h2>Download</h2>
-
 <div class="btn-download">
   <ul class="listing-download">
     <li><a class="link-download" href="#">Download</a></li>
     <li><a class="link-demo" href="#">Live Preview</a></li>
   </ul>
 </div>
+
+<h2>What is this?</h2>
 
 ![Try CommentList](/visual-testing-handbook/commentlist-presentation-data.jpg)
 
