@@ -63,7 +63,7 @@ export const guideFormatting = css`
   }
 
   .btn-download {
-    background: #CBB298;
+    background: #F6F9FC;
     padding: 60px 0px;
     margin-top: 30px;
     margin-bottom: 60px;
@@ -77,7 +77,7 @@ export const guideFormatting = css`
 
       .link-download {
         text-decoration: none;
-        background: #A87E53;
+        background: #60A1E5;
         color: #ffffff;
         padding: 15px 25px;
         border-radius: 3em;
@@ -88,7 +88,7 @@ export const guideFormatting = css`
       .link-demo {
         text-decoration: none;
         background: #ffffff;
-        color: #A87E53;
+        color: #60A1E5;
         padding: 15px 25px;
         border-radius: 3em;
         font-size: 16px;
