@@ -61,6 +61,40 @@ export const guideFormatting = css`
       box-shadow: rgba(0, 0, 0, 0.08) 0 3px 10px 0;
     }
   }
+
+  .btn-download {
+    background: #CBB298;
+    padding: 60px 0px;
+    margin-top: 40px;
+    border-radius: 5px;
+
+    .listing-download {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-evenly;
+      padding-inline-start: 0px;
+
+      .link-download {
+        text-decoration: none;
+        background: #A87E53;
+        color: #ffffff;
+        padding: 15px 25px;
+        border-radius: 3em;
+        font-size: 16px;
+        font-weight: 900;
+      }
+
+      .link-demo {
+        text-decoration: none;
+        background: #ffffff;
+        color: #A87E53;
+        padding: 15px 25px;
+        border-radius: 3em;
+        font-size: 16px;
+        font-weight: 900;
+      }
+    }
+  }
 `;
 
 export const chapterFormatting = css`
