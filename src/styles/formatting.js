@@ -65,7 +65,8 @@ export const guideFormatting = css`
   .btn-download {
     background: #CBB298;
     padding: 60px 0px;
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-bottom: 60px;
     border-radius: 5px;
 
     .listing-download {

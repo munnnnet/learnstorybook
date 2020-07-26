@@ -32,8 +32,8 @@ contributors: []
 
 <div class="btn-download">
   <ul class="listing-download">
-    <li><a class="link-download" href="#">Direct Download</a></li>
-    <li><a class="link-demo" href="#">Live preview</a></li>
+    <li><a class="link-download" href="#">Download</a></li>
+    <li><a class="link-demo" href="#">Live Preview</a></li>
   </ul>
 </div>
 
