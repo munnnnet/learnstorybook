@@ -180,7 +180,7 @@ const Hero = ({
 
         {description && <PitchDescription>{description}</PitchDescription>}
 
-        <Link target="_blank" rel="noopener" href="#cta-download">
+        <Link rel="noopener" href="https://{url}#cta-download">
           <GetStartedButton>Download here</GetStartedButton>
         </Link>
 
