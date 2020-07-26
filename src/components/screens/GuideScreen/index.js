@@ -149,7 +149,7 @@ const Guide = ({ data, pageContext }) => {
             </>
           )}
 
-          <div dangerouslySetInnerHTML={{ __html: html }} />
+          <div id="cta-download" dangerouslySetInnerHTML={{ __html: html }} />
 
           <Contributors authors={authors} contributors={contributors} />
         </Detail>
