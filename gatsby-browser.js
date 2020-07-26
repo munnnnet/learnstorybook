@@ -4,12 +4,6 @@ const { Spinner } = require('@storybook/design-system');
 
 const LOADING_ID = '___loading';
 
-const scrollTo = (id) => () => {
-  const el = document.querySelector(id)
-  if (el) return window.scrollTo(0, el.offsetTop - 20)
-  return false
-}
-
 exports.onRouteUpdateDelayed = () => {
   const loadingElement = document.createElement('div');
   loadingElement.id = LOADING_ID;
