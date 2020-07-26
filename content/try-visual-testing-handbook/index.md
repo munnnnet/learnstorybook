@@ -28,7 +28,7 @@ authors:
 contributors: []
 ---
 
-<h2>What you'll build</h2>
+<h2>Download</h2>
 
 <div class="badge-box">
   <div class="badge">
@@ -36,6 +36,6 @@ contributors: []
   </div>
 </div>
 
-![CommentList](/visual-testing-handbook/commentlist-presentation-data.jpg)
+![Try CommentList](/visual-testing-handbook/commentlist-presentation-data.jpg)
 
 `CommentList` is a list component that you might find in any chat tool. Follow along as we demonstrate how to use Storybook to build discrete UI states including `loading`, `empty`, and `hasData`. Then we'll walk through the process of visual testing by hand and automatically.
