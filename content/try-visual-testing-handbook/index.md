@@ -30,16 +30,19 @@ contributors: []
 
 <h2>Download</h2>
 
-<GatsbyLink external to="https://kontena.website">
-  <GetStartedButton>Download here</GetStartedButton>
-</GatsbyLink>
+<div class="btn-download">
+  <ul class="listing-download">
+    <li><a class="link-download" href="#">Download</a></li>
+    <li><a class="link-demo" href="#">Demo</a></li>
+  </ul>
+</div>
+
+![Try CommentList](/visual-testing-handbook/commentlist-presentation-data.jpg)
+
+`CommentList` is a list component that you might find in any chat tool. Follow along as we demonstrate how to use Storybook to build discrete UI states including `loading`, `empty`, and `hasData`. Then we'll walk through the process of visual testing by hand and automatically.
 
 <div class="badge-box">
   <div class="badge">
     <img src="/frameworks/logo-react.svg"> React
   </div>
 </div>
-
-![Try CommentList](/visual-testing-handbook/commentlist-presentation-data.jpg)
-
-`CommentList` is a list component that you might find in any chat tool. Follow along as we demonstrate how to use Storybook to build discrete UI states including `loading`, `empty`, and `hasData`. Then we'll walk through the process of visual testing by hand and automatically.
