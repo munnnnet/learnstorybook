@@ -85,6 +85,11 @@ export const guideFormatting = css`
         font-weight: 900;
       }
 
+      .link-download:hover {
+        transform: translate3d(0px, -2px, 0px);
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px 0px;
+      }
+
       .link-demo {
         text-decoration: none;
         background: #ffffff;
@@ -93,6 +98,11 @@ export const guideFormatting = css`
         border-radius: 3em;
         font-size: 16px;
         font-weight: 900;
+      }
+
+      .link-demo {
+        transform: translate3d(0px, -2px, 0px);
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px 0px;
       }
     }
   }

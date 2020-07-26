@@ -41,7 +41,7 @@ const Pitch = () => (
     <PitchTitle>Explore Premium Themes and Templates</PitchTitle>
 
     <PitchDescription>
-      Creates for beginner and developer. Suitable in any platform such as HTML CSS, Blogspot, Wordpress, Gatsby, and more.
+      Created for beginner and developer. Suitable in any platform such as HTML CSS, Blogspot, Wordpress, Gatsby, and more.
     </PitchDescription>
   </PitchWrapper>
 );

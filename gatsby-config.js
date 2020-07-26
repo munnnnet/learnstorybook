@@ -1,11 +1,11 @@
 const isDeployPreview = process.env.CONTEXT === 'deploy-preview';
-const permalink = isDeployPreview ? process.env.DEPLOY_PRIME_URL : 'https://learnstorybook.com';
+const permalink = isDeployPreview ? process.env.DEPLOY_PRIME_URL : 'https://kontena.website';
 
 module.exports = {
   siteMetadata: {
-    title: 'Storybook Tutorials',
+    title: 'Themes and Templates Resources | Kontena Indonesia',
     description:
-      'Learn Storybook teaches frontend developers how to create UIs with components and design systems. Our free in-depth guides are created by Storybook maintainers and peer-reviewed by the open source community.',
+      'Created for beginner and developer. Suitable in any platform such as HTML CSS, Blogspot, Wordpress, Gatsby, and more.',
     permalink,
     siteUrl: permalink,
     githubUrl: 'https://github.com/chromaui/learnstorybook.com',
