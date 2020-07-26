@@ -30,6 +30,10 @@ contributors: []
 
 <h2>Download</h2>
 
+<GatsbyLink external to="https://kontena.website">
+  <GetStartedButton>Download here</GetStartedButton>
+</GatsbyLink>
+
 <div class="badge-box">
   <div class="badge">
     <img src="/frameworks/logo-react.svg"> React
