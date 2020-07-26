@@ -37,6 +37,11 @@ const GuideTitle = styled.span`
 const GuideDescription = styled.span`
   display: block;
   margin-top: ${spacing.padding.small}px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 `;
 
 const GuideChapterCount = styled(Subheading)`

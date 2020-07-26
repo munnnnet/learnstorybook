@@ -38,10 +38,10 @@ const Pitch = () => (
   <PitchWrapper>
     <IconLearnStorybook />
 
-    <PitchTitle>Learn to develop UIs with components and design systems</PitchTitle>
+    <PitchTitle>Explore Premium Themes and Templates</PitchTitle>
 
     <PitchDescription>
-      Free in-depth guides for professional frontend developers. Made by Storybook maintainers.
+      Creates for beginner and developer. Suitable in any platform such as HTML CSS, Blogspot, Wordpress, Gatsby, and more.
     </PitchDescription>
   </PitchWrapper>
 );

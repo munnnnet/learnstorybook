@@ -71,8 +71,8 @@ const SiteStats = ({ allEditionsChaptersEdges, chapterCount, guideCount }) => {
     <SiteStatsWrapper>
       <SiteStatWrapper>
         <SiteStat
-          heading={pluralize('guide', guideCount, true)}
-          message="Professional walkthroughs made for frontend devs. Updated all the time."
+          heading={pluralize('themes', guideCount, true)}
+          message="Premium themes and template for beginner and business early-stage."
         />
 
         <AndCountingImage withMultipleGuides={guideCount > 1} />
@@ -80,17 +80,11 @@ const SiteStats = ({ allEditionsChaptersEdges, chapterCount, guideCount }) => {
 
       <SiteStatWrapper>
         <SiteStat
-          heading={pluralize('total chapter', chapterCount, true)}
-          message="With code snippets, sample repos, icons, and production assets."
+          heading={pluralize('documentation', chapterCount, true)}
+          message="Well-documentation helps everyone to use themes and templates."
         />
       </SiteStatWrapper>
-
-      <SiteStatWrapper>
-        <SiteStat
-          heading={pluralize('edition', uniqueEditionsSet.size, true)}
-          message="Support for React, Vue, and Angular. Translated into Spanish, Chinese, and more."
-        />
-      </SiteStatWrapper>
+      
     </SiteStatsWrapper>
   );
 };

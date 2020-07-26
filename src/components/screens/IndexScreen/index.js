@@ -61,25 +61,7 @@ const PureIndexScreen = ({ data }) => (
         guideCount={data.guides.edges.length}
       />
     </DotBackground>
-
-    <WhatIsLSB />
-    <SocialValidation />
-    <SocialValidationLineBreak />
-
-    <BottomSection>
-      <Community />
-
-      <CTALineBreak />
-
-      <CTA
-        text="Learn to build UIs with components and libraries now"
-        action={
-          <GatsbyLink to="/intro-to-storybook">
-            <Button appearance="secondary">Get started</Button>
-          </GatsbyLink>
-        }
-      />
-    </BottomSection>
+    
   </>
 );
 
