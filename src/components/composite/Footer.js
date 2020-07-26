@@ -110,19 +110,10 @@ const Footer = ({ guides, ...props }) => (
           </FooterBlockContent>
         </FooterLogoBlock>
 
-        <FooterLogoBlock>
-          <Link target="_blank" rel="noopener" href="https://www.chromatic.com/">
-            <LogoChromaticWrapper />
-          </Link>
-
-          <FooterBlockContent>
-            Made by Chromatic and the amazing Storybook community.
-          </FooterBlockContent>
-        </FooterLogoBlock>
       </FooterBlock>
 
       <FooterGuideBlock>
-        <SubheadingWrapper>Guides</SubheadingWrapper>
+        <SubheadingWrapper>Themes</SubheadingWrapper>
 
         <FooterBlockContent>
           {guides.edges.map(({ node: guideNode }) => (
@@ -141,7 +132,7 @@ const Footer = ({ guides, ...props }) => (
             Team
           </FooterBlockLink>
 
-          <FooterBlockLink as={Link} href="mailto:dom@chromatic.com" tertiary>
+          <FooterBlockLink as={Link} href="mailto:fatul@kontena.website" tertiary>
             Contact us
           </FooterBlockLink>
         </FooterBlockContent>
@@ -151,7 +142,7 @@ const Footer = ({ guides, ...props }) => (
         <SubheadingWrapper>Subscribe</SubheadingWrapper>
 
         <FooterBlockContent>
-          Join the Chromatic mailing list to get free tutorials, guides, and resources emailed to
+          Join Kontena mailing list to get free tutorials, guides, and resources emailed to
           you.
         </FooterBlockContent>
 
