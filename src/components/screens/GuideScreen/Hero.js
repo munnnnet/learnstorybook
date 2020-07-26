@@ -180,10 +180,6 @@ const Hero = ({
 
         {description && <PitchDescription>{description}</PitchDescription>}
 
-        <GatsbyLink to="#cta-download">
-          <GetStartedButton>Download here</GetStartedButton>
-        </GatsbyLink>
-
         {languages.length > 0 && (
           <Languages>
             <LanguagesLabel>Languages: </LanguagesLabel>

@@ -16,6 +16,23 @@ import getLanguageName from '../../../lib/getLanguageName';
 
 const { breakpoint, color, pageMargins, typography } = styles;
 
+const GetStartedButton = styled(Button)`
+  margin-top: 24px;
+  font-size: ${typography.size.s3}px;
+  font-weight: ${typography.weight.black};
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 180px;
+
+  &,
+  &:hover,
+  &:focus,
+  &:hover:focus {
+    background: ${color.lightest};
+    color: ${color.secondary};
+  }
+`;
+
 const Content = styled.div`
   ${guideFormatting}
   ${pageMargins}
@@ -86,6 +103,7 @@ const Guide = ({ data, pageContext }) => {
         description,
         heroAnimationName,
         heroDescription,
+        GetStartedButton,
         themeColor,
         title,
         toc,
