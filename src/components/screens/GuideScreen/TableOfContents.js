@@ -37,6 +37,7 @@ const ChapterTitle = styled.div`
 
 const ChapterDescription = styled.div`
   font-size: ${typography.size.s2}px;
+  display: none;
 `;
 
 const ChapterItem = styled.li`

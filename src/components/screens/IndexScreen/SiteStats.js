@@ -12,6 +12,7 @@ const SiteStatsWrapper = styled.div`
 
   && {
     margin-top: 66px;
+    margin-bottom: 66px;
   }
 
   @media (min-width: ${breakpoint * 1.25}px) {
@@ -84,7 +85,7 @@ const SiteStats = ({ allEditionsChaptersEdges, chapterCount, guideCount }) => {
           message="Well-documentation helps everyone to use themes and templates."
         />
       </SiteStatWrapper>
-      
+
     </SiteStatsWrapper>
   );
 };
