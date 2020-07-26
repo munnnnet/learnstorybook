@@ -279,12 +279,6 @@ export default function Header({ guides, githubUrl, isInverted, ...props }) {
         <TooltipLinkList
           links={[
             { title: 'Team', to: '/team' },
-            {
-              title: 'Storybook',
-              href: 'https://storybook.js.org/',
-              target: '_blank',
-              rel: 'noopener',
-            },
           ]}
           LinkWrapper={TooltipLinkListLinkWrapper}
         />

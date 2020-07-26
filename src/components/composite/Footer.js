@@ -106,7 +106,7 @@ const Footer = ({ guides, ...props }) => (
           </GatsbyLink>
 
           <FooterBlockContent>
-            In depth guides written by Storybook maintainers for professional developers.
+            Created for beginner and developer. 
           </FooterBlockContent>
         </FooterLogoBlock>
 
