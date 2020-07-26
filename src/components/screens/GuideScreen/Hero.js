@@ -180,10 +180,6 @@ const Hero = ({
 
         {description && <PitchDescription>{description}</PitchDescription>}
 
-        <Link rel="noopener" href="https://{url}#cta-download">
-          <GetStartedButton>Download here</GetStartedButton>
-        </Link>
-
         {languages.length > 0 && (
           <Languages>
             <LanguagesLabel>Languages: </LanguagesLabel>
