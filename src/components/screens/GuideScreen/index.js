@@ -151,6 +151,7 @@ const Guide = ({ data, pageContext }) => {
         chapterCount={entries.length}
         ctaHref={get(entries, '[0].slug')}
         description={heroDescription}
+        GetStartedButton={GetStartedButton}
         heroAnimationName={heroAnimationName}
         imagePath={coverImagePath}
         languages={languages}
