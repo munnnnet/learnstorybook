@@ -180,7 +180,7 @@ const Hero = ({
 
         {description && <PitchDescription>{description}</PitchDescription>}
 
-        <GatsbyLink to="cta-download">
+        <GatsbyLink to="#cta-download">
           <GetStartedButton>Download here</GetStartedButton>
         </GatsbyLink>
 
