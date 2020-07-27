@@ -42,6 +42,13 @@ contributors: [ ]
 twitterShareText: 'I’m learning Storybook! It’s a great dev tool for UI components.'
 ---
 
+<div class="btn-download">
+  <ul class="listing-download">
+    <li><a class="link-download" href="#">Download</a></li>
+    <li><a class="link-demo" href="#">Live Preview</a></li>
+  </ul>
+</div>
+
 <h2>What you'll build</h2>
 
 <div class="badge-box">
