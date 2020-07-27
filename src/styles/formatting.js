@@ -69,41 +69,93 @@ export const guideFormatting = css`
     margin-bottom: 60px;
     border-radius: 5px;
 
-    .listing-download {
-      list-style-type: none;
-      display: flex;
-      justify-content: space-evenly;
-      padding-inline-start: 0px;
-
-      .link-download {
-        text-decoration: none;
-        background: #60A1E5;
-        color: #ffffff;
-        padding: 15px 25px;
-        border-radius: 3em;
-        font-size: 16px;
-        font-weight: 900;
+    .btn-download {
+      position: absolute;
+      top: 597px;
+      background: none;
+      padding: 0px;
+      left: 149px;
+      margin: 0px;
+  
+      .listing-download {
+        list-style-type: none;
+        display: flex;
+        padding-inline-start: 0px;
+  
+        .link-download {
+          margin-right: 25px;
+          background: #ffffff;
+          color: #000000;
+          font-weight: 500;
+          text-decoration: none;
+          padding: 15px 25px;
+          border-radius: 3em;
+          font-size: 16px;
+        }
+  
+        .link-download:hover {
+          transform: translate3d(0px, -2px, 0px);
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px 0px;
+        }
+  
+        .link-demo {
+          text-decoration: none;
+          background: none;
+          color: #000000;
+          font-weight: 500;
+          font-size: 16px;
+        }
+  
+        .link-demo:hover {
+          transform: translate3d(0px, -2px, 0px);
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px 0px;
+        }
       }
-
-      .link-download:hover {
-        transform: translate3d(0px, -2px, 0px);
-        box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px 0px;
-      }
-
-      .link-demo {
-        text-decoration: none;
-        background: #ffffff;
-        color: #60A1E5;
-        padding: 15px 25px;
-        border-radius: 3em;
-        font-size: 16px;
-        font-weight: 900;
-      }
-
-      .link-demo:hover {
-        transform: translate3d(0px, -2px, 0px);
-        box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px 0px;
-      }
+    }
+  
+    @media (max-width: 1200px){
+      .btn-download {
+        top: 625px;}
+    }
+  
+    @media (max-width: 1199px){
+      .btn-download {
+        top: 597px;
+        left: 87px;}
+    }
+  
+    @media (max-width: 1051px){
+      .btn-download {
+        top: 625px;
+        left: 79px;}
+    }
+  
+    @media (max-width: 980px){
+      .btn-download {
+        top: 650px;
+        left: 79px;}
+    }
+  
+    @media (max-width: 899px){
+      .btn-download {
+        top: 773px;
+        left: 35%;}
+    }
+  
+    @media (max-width: 816px){
+      .btn-download {
+        top: 799px;
+        left: 33%;}
+    }
+  
+    @media (max-width: 685px){
+      .btn-download {
+        left: 30%;}
+    }
+  
+    @media (max-width: 624px){
+      .btn-download {
+        top: 248%;}
     }
   }
 `;
