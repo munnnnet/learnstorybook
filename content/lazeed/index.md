@@ -22,7 +22,7 @@ toc:
     'creating-addons',
   ]
 coverImagePath: '/lazeed/lazeed.jpg'
-thumbImagePath: '/lazeed/lazeed-thumb.jpg'
+thumbImagePath: '/lazeed/lazeed.jpg'
 contributorCount: '10'
 authors:
   [
