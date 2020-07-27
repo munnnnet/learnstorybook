@@ -98,6 +98,7 @@ export const guideFormatting = css`
         font-weight: 500;
         font-size: 16px;
         padding: 15px 25px;
+        border-radius: 3em;
       }
 
       .link-demo:hover {
@@ -150,6 +151,12 @@ export const guideFormatting = css`
   @media (max-width: 624px){
     .btn-download {
       top: 248%;}
+  }
+
+  @media (max-width: 424px){
+    .btn-download {
+      top: 672px;
+      left: 15%;}
   }
 
   @media (max-width: 414px){
