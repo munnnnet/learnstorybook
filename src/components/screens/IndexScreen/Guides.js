@@ -27,7 +27,7 @@ const Content = styled.div`
 
     @media (min-width: ${breakpoint}px) {
       max-width: calc(50% - 50px);
-      margin: 10px;
+      margin: 20px;
     }
 
     @media (min-width: ${breakpoint * 1.75}px) {
