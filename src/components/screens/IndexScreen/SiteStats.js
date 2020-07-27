@@ -81,8 +81,8 @@ const SiteStats = ({ allEditionsChaptersEdges, chapterCount, guideCount }) => {
 
       <SiteStatWrapper>
         <SiteStat
-          heading={pluralize('documentation', chapterCount, true)}
-          message="Well-documentation helps everyone to use themes and templates."
+          heading={pluralize('pages', chapterCount, true)}
+          message="There are various pages style to suitable business need."
         />
       </SiteStatWrapper>
 
