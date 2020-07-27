@@ -13,7 +13,7 @@ const HeroWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   background: ${props => props.themeColor};
-  padding-bottom: 80px;
+  padding-bottom: 100px;
   padding-top: 80px;
   padding-left: ${spacing.padding.medium}px;
   padding-right: ${spacing.padding.medium}px;
