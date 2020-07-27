@@ -111,19 +111,7 @@ const Footer = ({ guides, ...props }) => (
         </FooterLogoBlock>
 
       </FooterBlock>
-
-      <FooterGuideBlock>
-        <SubheadingWrapper>Themes</SubheadingWrapper>
-
-        <FooterBlockContent>
-          {guides.edges.map(({ node: guideNode }) => (
-            <FooterBlockLink tertiary to={guideNode.fields.slug} key={guideNode.frontmatter.title}>
-              {guideNode.frontmatter.title}
-            </FooterBlockLink>
-          ))}
-        </FooterBlockContent>
-      </FooterGuideBlock>
-
+      
       <FooterGuideBlock>
         <SubheadingWrapper>About</SubheadingWrapper>
 
