@@ -62,6 +62,7 @@ const GuideImage = styled.img`
   width: fit-content;
   max-width: 100%;
   max-height: 170px;
+  border-radius: 8px;
 `;
 
 const StyledIcon = styled(Icon)`
