@@ -23,7 +23,7 @@ const GuideWrapper = styled.span`
   }
 
   @media (min-width: ${breakpoint * 1.25}px) {
-    height: 340px;
+    height: 400px;
   }
 `;
 
@@ -61,7 +61,7 @@ const GuideImage = styled.img`
   margin: ${spacing.padding.medium}px auto 0;
   width: fit-content;
   max-width: 100%;
-  max-height: 170px;
+  max-height: fit-content;;
   border-radius: 8px;
 `;
 
