@@ -152,6 +152,22 @@ export const guideFormatting = css`
       top: 248%;}
   }
 
+  @media (max-width: 414px){
+    .btn-download {
+      top: 662px;
+      left: 10%;}
+  }
+
+  @media (max-width: 375px){
+    .btn-download {
+      top: 654px;}
+  }
+
+  @media (max-width: 360px){
+    .btn-download {
+      top: 638px;}
+  }
+
 `;
 
 export const chapterFormatting = css`
