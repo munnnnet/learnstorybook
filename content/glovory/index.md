@@ -10,7 +10,7 @@ heroAnimationName: 'float'
 toc:
   ['introduction', 'component-explorers', 'visual-test-driven-development', 'tutorial', 'automate']
 coverImagePath: '/glovory/cover.jpg'
-thumbImagePath: '/glovory/thumbjpg.'
+thumbImagePath: '/glovory/thumb.jpg.'
 contributorCount: '2'
 authors:
   [
