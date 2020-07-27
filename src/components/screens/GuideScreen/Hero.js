@@ -145,6 +145,9 @@ const Figure = styled.div`
     margin: 0 auto;
     max-width: 80%;
     max-height: 480px;
+    transform: translate3d(0px, -2px, 0px);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px 0px;
+    border-radius: 12px;
 
     @media (min-width: ${breakpoint * 1.5}px) {
       max-width: 100%;
