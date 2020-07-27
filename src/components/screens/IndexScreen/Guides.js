@@ -40,7 +40,7 @@ const StyledGuide = styled(Guide)``;
 
 const GuideLink = styled(GatsbyLink)`
   ${StyledGuide} {
-    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: none;
   }
   &&:hover {
     transform: translateY(-3px);
