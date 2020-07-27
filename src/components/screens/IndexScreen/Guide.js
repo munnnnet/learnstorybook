@@ -17,6 +17,7 @@ const GuideWrapper = styled.span`
   justify-content: space-around;
   text-align: left;
   height: 400px;
+  box-shadow: none;
 
   @media (min-width: ${breakpoint}px) {
     height: 450px;
