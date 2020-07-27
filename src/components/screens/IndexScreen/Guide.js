@@ -24,7 +24,7 @@ const GuideWrapper = styled.span`
   }
 
   @media (min-width: ${breakpoint * 1.25}px) {
-    height: 400px;
+    height: 335px;
   }
 `;
 
@@ -33,7 +33,7 @@ const GuideTitle = styled.span`
   font-size: ${typography.size.m1}px;
   font-weight: ${typography.weight.black};
   line-height: ${typography.size.m3}px;
-  padding: 0px 30px;
+  padding: 30px 30px 0px;
 `;
 
 const GuideDescription = styled.span`
