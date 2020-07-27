@@ -8,9 +8,9 @@ const { breakpoint, color, spacing, typography } = styles;
 
 const GuideWrapper = styled.span`
   display: block;
-  background: ${props => props.themeColor};
-  color: ${color.lightest};
-  padding: 0px 30px;
+  background: #ffffff;
+  color: #000000;
+  padding: 0px 0px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -32,6 +32,7 @@ const GuideTitle = styled.span`
   font-size: ${typography.size.m1}px;
   font-weight: ${typography.weight.black};
   line-height: ${typography.size.m3}px;
+  padding: 0px 30px;
 `;
 
 const GuideDescription = styled.span`
@@ -42,6 +43,7 @@ const GuideDescription = styled.span`
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  padding: 0px 30px;
 `;
 
 const GuideChapterCount = styled(Subheading)`
@@ -55,6 +57,7 @@ const GuideImageWrapper = styled.span`
   height: 170px;
   display: flex;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 10px 0px;
 `;
 
 const GuideImage = styled.img`
