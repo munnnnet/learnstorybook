@@ -99,6 +99,7 @@ const Languages = styled.div`
   font-size: ${typography.size.s1}px;
   line-height: 16px;
   margin-top: 1rem;
+  display: none;
 `;
 
 const LanguagesLabel = styled.span`

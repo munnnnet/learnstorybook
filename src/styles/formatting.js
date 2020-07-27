@@ -97,6 +97,7 @@ export const guideFormatting = css`
         color: #000000;
         font-weight: 500;
         font-size: 16px;
+        padding: 15px 25px;
       }
 
       .link-demo:hover {
@@ -150,7 +151,7 @@ export const guideFormatting = css`
     .btn-download {
       top: 248%;}
   }
-  
+
 `;
 
 export const chapterFormatting = css`
