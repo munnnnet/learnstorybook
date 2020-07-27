@@ -10,7 +10,7 @@ const GuideWrapper = styled.span`
   display: block;
   background: ${props => props.themeColor};
   color: ${color.lightest};
-  padding: 30px;
+  padding: 0px 30px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -23,7 +23,7 @@ const GuideWrapper = styled.span`
   }
 
   @media (min-width: ${breakpoint * 1.25}px) {
-    height: 400px;
+    height: 340px;
   }
 `;
 
