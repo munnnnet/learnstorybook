@@ -191,8 +191,8 @@ const Hero = ({
           </Languages>
         )}
         <StatWrapper>
-          {contributorCount && <Stat value={contributorCount} label="Platfroms" />}
-          {chapterCount && <Stat value={chapterCount} label="Documentations" />}
+          {contributorCount && <Stat value={contributorCount} label="Elements" />}
+          {chapterCount && <Stat value={chapterCount} label="Pages" />}
         </StatWrapper>
       </Pitch>
 
