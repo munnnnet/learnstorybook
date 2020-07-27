@@ -67,7 +67,7 @@ export const guideFormatting = css`
     top: 597px;
     background: none;
     padding: 0px;
-    left: 149px;
+    left: 160px;
     margin: 0px;
 
     .listing-download {
