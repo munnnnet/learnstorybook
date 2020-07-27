@@ -1,5 +1,5 @@
 ---
-title: 'Lazeed Food & Beverage'
+title: 'Lazeed Food'
 description: "Learn to create bulletproof UI components, along the way you'll build an app UI from scratch."
 heroDescription: 'Storybook is the most popular UI component development tool for React, Vue, and Angular.'
 overview: 'Intro to Storybook teaches tried-and-true patterns for component development using Storybook. You’ll walk through essential UI component techniques while building a UI from scratch in React, Vue, or Angular. The info here is sourced from professional teams, core maintainers, and the awesome Storybook community. Professional developers at Airbnb, Dropbox, and Lonely Planet use Storybook to build durable documented UIs faster.'
@@ -22,7 +22,7 @@ toc:
     'creating-addons',
   ]
 coverImagePath: '/lazeed/lazeed.jpg'
-thumbImagePath: '/lazeed/lazeed.jpg'
+thumbImagePath: '/lazeed/thumb.jpg'
 contributorCount: '10'
 authors:
   [
@@ -51,7 +51,7 @@ twitterShareText: 'I’m learning Storybook! It’s a great dev tool for UI comp
   </div>
   <div class="badge">
     <img src="/frameworks/logo-react.svg">
-    <a href="/intro-to-storybook/react-native/en/get-started/"> React Native</a>
+    <a href="/intro-to-storybook/react-native/en/get-started/"> HTML5</a>
   </div>
   <div class="badge">
     <img src="/frameworks/logo-vue.svg">
