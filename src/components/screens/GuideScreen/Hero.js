@@ -58,6 +58,8 @@ const PitchTitle = styled.h1`
   font-weight: ${typography.weight.black};
   font-size: ${typography.size.l1}px;
   line-height: 44px;
+  max-height: 104px;
+  min-height: 88px;
 
   @media (min-width: ${breakpoint * 1.5}px) {
     font-size: ${typography.size.l2}px;
