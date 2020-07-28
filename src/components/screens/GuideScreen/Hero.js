@@ -69,6 +69,11 @@ const PitchDescription = styled.div`
   font-size: ${typography.size.s3}px;
   line-height: 28px;
   margin-top: 0.5rem;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 
   @media (min-width: ${breakpoint * 1.5}px) {
     font-size: ${typography.size.m1}px;
