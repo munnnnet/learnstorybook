@@ -127,6 +127,7 @@ const LanguagesLink = styled(GatsbyLink)`
 
 const StatWrapper = styled.div`
   margin-top: 32px;
+  margin-bottom: 32px;
   display: flex;
   flex-direction: row;
   justify-content: center;
