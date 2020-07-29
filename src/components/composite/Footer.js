@@ -106,7 +106,7 @@ const Footer = ({ guides, ...props }) => (
           </GatsbyLink>
 
           <FooterBlockContent>
-            Created for beginner and developer. 
+            Creative themes and template. Created for beginner and developer. 
           </FooterBlockContent>
         </FooterLogoBlock>
 
@@ -130,7 +130,7 @@ const Footer = ({ guides, ...props }) => (
         <SubheadingWrapper>Subscribe</SubheadingWrapper>
 
         <FooterBlockContent>
-          Join Kontena mailing list to get free tutorials, guides, and resources emailed to
+          Join our mailing list to get free tutorials, guides, and resources emailed to
           you.
         </FooterBlockContent>
 
