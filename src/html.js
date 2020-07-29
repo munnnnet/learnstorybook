@@ -22,9 +22,11 @@ export default function HTML(props) {
         <div key="body" id="___gatsby" dangerouslySetInnerHTML={{ __html: props.body }} />
         {props.postBodyComponents}
 
-        <div id="comm100-button-0e5a654b-38bf-4f26-b8cf-73ca080596c6"></div>
         <script dangerouslySetInnerHTML= {{ __html: ` 
-          var Comm100API=Comm100API||{};(function(t){function e(e){var a=document.createElement("script"),c=document.getElementsByTagName("script")[0];a.type="text/javascript",a.async=!0,a.src=e+t.site_id,c.parentNode.insertBefore(a,c)}t.chat_buttons=t.chat_buttons||[],t.chat_buttons.push({code_plan:"0e5a654b-38bf-4f26-b8cf-73ca080596c6",div_id:"comm100-button-0e5a654b-38bf-4f26-b8cf-73ca080596c6"}),t.site_id=40000072,t.main_code_plan="0e5a654b-38bf-4f26-b8cf-73ca080596c6",e("https://vue.comm100.com/livechat.ashx?siteId="),setTimeout(function(){t.loaded||e("https://standby.comm100vue.com/livechat.ashx?siteId=")},5e3)})(Comm100API||{})
+          window.replainSettings = { id: '3402f188-a0cd-4d92-af28-024956fdc368' };
+          (function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
+          var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+          })('https://widget.replain.cc/dist/client.js');
          `}} />`
 
       </body>
