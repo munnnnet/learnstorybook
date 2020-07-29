@@ -23,10 +23,14 @@ export default function HTML(props) {
         {props.postBodyComponents}
 
         <script dangerouslySetInnerHTML= {{ __html: ` 
-          window.replainSettings = { id: 'd3e432df-2bae-4e61-9183-d35b5937c024' };
-          (function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
-          var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
-          })('https://widget.replain.cc/dist/client.js');
+          var _smartsupp = _smartsupp || {};
+          _smartsupp.key = '2074beefd3bd8750a9805f1bb75ddfd0229f6326';
+          window.smartsupp||(function(d) {
+            var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+            s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+            c.type='text/javascript';c.charset='utf-8';c.async=true;
+            c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+          })(document);
          `}} />`
 
       </body>
