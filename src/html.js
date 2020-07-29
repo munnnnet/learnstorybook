@@ -23,7 +23,7 @@ export default function HTML(props) {
         {props.postBodyComponents}
 
         <script dangerouslySetInnerHTML= {{ __html: ` 
-          window.replainSettings = { id: '3402f188-a0cd-4d92-af28-024956fdc368' };
+          window.replainSettings = { id: 'd3e432df-2bae-4e61-9183-d35b5937c024' };
           (function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
           var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
           })('https://widget.replain.cc/dist/client.js');
