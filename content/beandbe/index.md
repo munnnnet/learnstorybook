@@ -20,7 +20,7 @@ authors:
       src: '/fatul.jpeg',
       name: 'Fathul Mundzir',
       detail: 'Front End Developer',
-    }
+    },
   ]
 contributors: [ ]
 
