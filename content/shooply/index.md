@@ -8,7 +8,9 @@ themeColor: '#A87E53'
 codeGithubUrl: 'https://github.com/chromaui/learnstorybook-code'
 heroAnimationName: 'float'
 toc:
-  ['hompage-basic']
+  [
+    'hompage-basic',
+    ]
 coverImagePath: '/shooply/cover.jpg'
 thumbImagePath: '/shooply/thumb.jpg'
 contributorCount: '2'
@@ -21,6 +23,7 @@ authors:
     },
 ]
 contributors: [ ]
+
 ---
 
 <div class="btn-download">
