@@ -27,6 +27,6 @@ twitterShareText: ' '
   </ul>
 </div>
 
-<h2>What you'll build</h2>
+<h2>HTML Templates Preview</h2>
 
 ![Taskbox UI](/newsly/newsly.png)

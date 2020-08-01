@@ -4,56 +4,48 @@ tocTitle: 'Homepage Basic'
 description: 'This is a homepage basic in Newsly. These elements will be update in the next stage.'
 ---
 
-Storybook runs alongside your app in development mode. It helps you build UI components isolated from the business logic and context of your app. This edition of Learn Storybook is for React Native; other editions exist for [React](/react/en/get-started), [Vue](/vue/en/get-started), [Angular](/angular/en/get-started) and [Svelte](/svelte/en/get-started).
+Newsly is beauty blogger template. This is the beta version where everyone easy to development to next layout. Newsly created using bootstrap 4 and responsive column and card. Compatible with various device screen size.
 
-![Storybook and your app](/intro-to-storybook/storybook-relationship.jpg)
+## Head CSS and JS Sources
 
-## Setup React Native Storybook
-
-We’ll need to follow a few steps to get the build process set up in your environment. To start with, we want to use [Expo](https://expo.io/tools) to setup our build system, and enable [Storybook](https://storybook.js.org/) and [Jest](https://facebook.github.io/jest/) testing in our created app.
-
-Before diving into the tutorial, take into account the following considerations:
-
-- All the code was intended for the Android platform, if you want to use IOS, some components might need to be updated in order to work properly.
-
-- You'll need a working simulator or a physical device correctly setup to maximize your experience, [react-native docs](https://facebook.github.io/react-native/docs/getting-started) has more detailed instructions on how to achieve this.
-
-- Throughout this tutorial, <code>yarn</code> will be used. Should you want to use <code>npm</code>, select the appropriate option when you're initializing the app and replace all subsequent commands with npm.
-
-With that out of the way, let’s run the following commands:
-
-```bash
-# Create our application:
-expo init --template tabs taskbox
-
-cd taskbox
-
-# Add Storybook:
-npx -p @storybook/cli sb init --type react_native
+```html
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Newsly</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa:400,500,600,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Featured---Blog.css">
+    <link rel="stylesheet" href="assets/css/footer-dark-01.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
 
 ```
 
-<div class="aside">
-  <p>During Storybook's install process, you'll be prompted to install react-native-server, do so as this package will help out immensely throughout the tutorial.</p>
-</div>
+## Navigation
 
-We'll also want to add another package and make a change to `storybook/rn-addons.js` to allow the actions (you'll see them in action later in the tutorial) to be logged correctly in the Storybook UI.
-
-Run the following command:
-
-```bash
-yarn add -D @storybook/addon-ondevice-actions
+```html
+<!-- Start: Navigation Clean -->
+    <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean" style="background-color: #FED8C3;">
+        <div class="container"><a class="navbar-brand" href="#" style="font-family: Comfortaa, cursive;letter-spacing: 1px;">Newsly</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="color: rgb(0,0,0);"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation" style="font-family: Comfortaa, cursive;letter-spacing: 0.5px;font-weight: 500;"><a class="nav-link" data-bs-hover-animate="rubberBand" href="#stories">Stories</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" data-bs-hover-animate="rubberBand" href="#articles" style="font-family: Comfortaa, cursive;font-weight: 500;letter-spacing: 0.5px;">Articles</a></li>
+                    <li class="nav-item" role="presentation"></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" data-bs-hover-animate="rubberBand" href="#interview" style="font-family: Comfortaa, cursive;font-weight: 500;letter-spacing: 0.5px;">Interview</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+<!-- End: Navigation Clean -->
 ```
-
-Change `storybook/rn-addons.js` to the following:
-
-```javascript
-// storybook/rn-addons.js
-import '@storybook/addon-ondevice-actions/register';
-```
-
-### Setup Jest with React Native
-
 We have two out of three modalities configured in our app, but we still need one, we need to setup [Jest](https://facebook.github.io/jest/) to enable testing.
 
 Create a new folder called `__mocks__` and inside add a new file `globalMock.js` with the following:
