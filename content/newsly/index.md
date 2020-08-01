@@ -1,7 +1,7 @@
 ---
 title: 'Newsly HTML Template'
 description: "Newsly is beauty blogger template."
-heroDescription: 'Newsly is beauty blogger template.'
+heroDescription: 'Newsly is beauty blogger template. This is the beta version where everyone easy to development to next layout.'
 overview: 'Newsly is beauty blogger template. This is the beta version where everyone easy to development to next layout. Newsly created using bootstrap 4 and responsive column and card. Compatible with various device screen size.'
 order: null
 themeColor: '#F96B7E'
@@ -33,7 +33,7 @@ twitterShareText: ' '
 <div class="btn-download">
   <ul class="listing-download">
     <li><a class="link-download" href="https://buy.paddle.com/product/614607">Download</a></li>
-    <li><a class="link-demo" href="https://kontena.website/html/theme/newsly">Live Preview</a></li>
+    <li><a class="link-demo" target="_blank" href="https://kontena.website/html/theme/newsly">Live Preview</a></li>
   </ul>
 </div>
 

@@ -33,6 +33,11 @@ export default function HTML(props) {
           })(document);
          `}} />`
 
+        <script src="https://cdn.paddle.com/paddle/paddle.js"></script>
+        <script dangerouslySetInnerHTML= {{ __html: ` 
+          Paddle.Setup({ vendor: 116821 });
+         `}} />`
+
       </body>
     </html>
   );
