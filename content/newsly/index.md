@@ -21,7 +21,7 @@ authors: [
       detail: 'Front End Developer',
     },
 ]
-contributors: [ ]
+contributors: []
 
 twitterShareText: 'I’m downloading Kontena! It’s a great dev tool for front end template and components.'
 ---
