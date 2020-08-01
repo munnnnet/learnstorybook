@@ -21,6 +21,8 @@ export const guideFormatting = css`
     max-width: 100%;
     position: relative;
     margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px 0px;
+    border-radius: 12px;
   }
 
   .badge-box {
