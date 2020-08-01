@@ -1,7 +1,7 @@
 ---
-title: 'Newsly Homepage Style 01'
-tocTitle: 'Homepage 01'
-description: 'Newsly homepage style 01'
+title: 'Newsly Homepage Basic'
+tocTitle: 'Homepage Basic'
+description: 'This is a homepage basic in Newsly. These elements will be update in the next stage.'
 ---
 
 Storybook runs alongside your app in development mode. It helps you build UI components isolated from the business logic and context of your app. This edition of Learn Storybook is for React Native; other editions exist for [React](/react/en/get-started), [Vue](/vue/en/get-started), [Angular](/angular/en/get-started) and [Svelte](/svelte/en/get-started).
