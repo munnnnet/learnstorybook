@@ -38,7 +38,7 @@ const Pitch = () => (
   <PitchWrapper>
     <IconLearnStorybook />
 
-    <PitchTitle>Free + Premium Themes and Templates</PitchTitle>
+    <PitchTitle>Free then Premium Themes and Templates</PitchTitle>
 
     <PitchDescription>
       Created for beginner and developer. Suitable in any platform such as Blogspot, Wordpress, Gatsby, and more.

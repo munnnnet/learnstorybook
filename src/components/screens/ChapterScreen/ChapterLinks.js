@@ -57,7 +57,7 @@ const BoxLinkMessage = styled.div`
 `;
 
 const buildTwitterUrl = (guide, text) =>
-  `https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Flearnstorybook.com%2F&ref_src=twsrc%5Etfw&text=${encodeURI(
+  `https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fkontena.website%2F&ref_src=twsrc%5Etfw&text=${encodeURI(
     text
   )}&tw_p=tweetbutton&url=https%3A%2F%2Flearnstorybook.com%2F${guide}&via=chromaui`;
 

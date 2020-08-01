@@ -14,10 +14,16 @@ toc:
 coverImagePath: '/newsly/cover.jpg'
 thumbImagePath: '/newsly/thumb.jpg'
 contributorCount: '4'
-authors: [ ]
+authors: [
+{
+      src: '/fatul.jpeg',
+      name: 'Fathul Mundzir',
+      detail: 'Front End Developer',
+    },
+]
 contributors: [ ]
 
-twitterShareText: ' '
+twitterShareText: 'I’m downloading Kontena! It’s a great dev tool for front end template and components.'
 ---
 
 <div class="btn-download">
