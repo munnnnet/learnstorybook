@@ -22,7 +22,7 @@ authors:
       detail: 'Front End Developer',
     },
 ]
-contributors: [ ]
+contributors: []
 
 ---
 
