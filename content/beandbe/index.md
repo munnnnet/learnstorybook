@@ -22,7 +22,6 @@ authors:
       detail: 'Front End Developer',
     },
   ]
-contributors: null
 ---
 
 <div class="btn-download">
