@@ -32,7 +32,7 @@ twitterShareText: ' '
 
 <div class="btn-download">
   <ul class="listing-download">
-    <li><a class="link-download" href="https://buy.paddle.com/product/614607">Download</a></li>
+    <li><a class="link-download paddle_button" href="#!" data-product="614607">Download</a></li>
     <li><a class="link-demo" target="_blank" href="https://kontena.website/html/theme/newsly">Live Preview</a></li>
   </ul>
 </div>
