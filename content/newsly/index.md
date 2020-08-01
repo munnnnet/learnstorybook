@@ -1,8 +1,8 @@
 ---
 title: 'Newsly HTML Template'
-description: "Learn to create bulletproof UI components, along the way you'll build an app UI from scratch."
-heroDescription: 'Storybook is the most popular UI component development tool for React, Vue, and Angular.'
-overview: 'Intro to Storybook teaches tried-and-true patterns for component development using Storybook. You’ll walk through essential UI component techniques while building a UI from scratch in React, Vue, or Angular. The info here is sourced from professional teams, core maintainers, and the awesome Storybook community. Professional developers at Airbnb, Dropbox, and Lonely Planet use Storybook to build durable documented UIs faster.'
+description: "Newsly is beauty blogger template."
+heroDescription: 'Newsly is beauty blogger template.'
+overview: 'Newsly is beauty blogger template. This is the beta version where everyone easy to development to next layout. Newsly created using bootstrap 4 and responsive column and card. Compatible with various device screen size.'
 order: null
 themeColor: '#F96B7E'
 codeGithubUrl: 'https://github.com/chromaui/learnstorybook-code'
@@ -24,28 +24,16 @@ toc:
 coverImagePath: '/newsly/cover.jpg'
 thumbImagePath: '/newsly/thumb.jpg'
 contributorCount: '4'
-authors:
-  [
-    {
-      src: 'https://avatars2.githubusercontent.com/u/132554',
-      name: 'Tom Coleman',
-      detail: 'Storybook core',
-    },
-    {
-      src: 'https://avatars2.githubusercontent.com/u/263385',
-      name: 'Dominic Nguyen',
-      detail: 'Storybook design',
-    },
-  ]
+authors: [ ]
 contributors: [ ]
 
-twitterShareText: 'I’m learning Storybook! It’s a great dev tool for UI components.'
+twitterShareText: ' '
 ---
 
 <div class="btn-download">
   <ul class="listing-download">
-    <li><a class="link-download" href="#">Download</a></li>
-    <li><a class="link-demo" href="#">Live Preview</a></li>
+    <li><a class="link-download" href="https://buy.paddle.com/product/614607">Download</a></li>
+    <li><a class="link-demo" href="https://kontena.website/html/theme/newsly">Live Preview</a></li>
   </ul>
 </div>
 
