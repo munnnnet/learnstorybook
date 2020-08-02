@@ -9,7 +9,7 @@ codeGithubUrl: 'https://github.com/chromaui/learnstorybook-code'
 heroAnimationName: 'float'
 toc:
   [
-    'hompage-basic',
+    'homepage-basic',
     ]
 coverImagePath: '/shooply/cover.jpg'
 thumbImagePath: '/shooply/thumb.jpg'
