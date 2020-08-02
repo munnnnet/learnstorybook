@@ -22,7 +22,14 @@ authors:
       detail: 'Front End Developer',
     },
   ]
-contributors: [  ]
+contributors: 
+  [  
+    {
+      src: 'https://avatars2.githubusercontent.com/u/239215',
+      name: 'Fernando Carrettoni',
+      detail: 'Design Systems at Auth0',
+    },
+  ]
 ---
 
 <div class="btn-download">

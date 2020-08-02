@@ -22,9 +22,14 @@ authors:
       detail: 'Front End Developer',
     },
   ]
-contributors: [  ]
-
-twitterShareText: 'I’m downloading Kontena! It’s a great dev tool for front end template and components.'
+contributors:
+  [  
+    {
+      src: 'https://avatars2.githubusercontent.com/u/239215',
+      name: 'Fernando Carrettoni',
+      detail: 'Design Systems at Auth0',
+    },
+  ]
 ---
 
 <div class="btn-download">
