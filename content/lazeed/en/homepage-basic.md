@@ -158,6 +158,8 @@ Lazeed is HTML template for food blogger or small food and beverage businesses. 
 ```
 
 ## Recipes
+
+
 ```html
 <section>
         <div class="container" style="padding: 5%;">
