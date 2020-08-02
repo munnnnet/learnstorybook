@@ -4,7 +4,7 @@ tocTitle: 'Homepage Basic'
 description: 'This is a homepage basic in Lazeed. These elements will be update in the next stage.'
 ---
 
-Glovory is the simple HTML template that created with bootstrap 4 and designed for various screen size. This template is simple and able to edit as you need in an easy way. 
+Lazeed is HTML template for food blogger or small food and beverage businesses. This template have various styles as the main background and consist of several elements that able to customize by everyone. Created using 4 bootstraps with responsive design. So will accesable on several device and screen size. 
 
 
 ## Head CSS and JS Sources
