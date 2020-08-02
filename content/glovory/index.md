@@ -2,7 +2,7 @@
 title: 'Glovory HTML Template'
 description: 'Glovory is the simple HTML template that created with bootstrap 4 and designed for various screen size.'
 heroDescription: 'Glovory is the simple HTML template that created with bootstrap 4 and designed for various screen size. This template is simple and able to edit as you need in an easy way.'
-overview: 'Glovory is the simple HTML template that created with bootstrap 4 and designed for various screen size. This template is simple and able to edit as you need in an easy way. '
+overview: 'Glovory is the simple HTML template that created with bootstrap 4 and designed for various screen size. This template is simple and able to edit as you need in an easy way.'
 order: null
 themeColor: '#F8AFA0'
 codeGithubUrl: 'https://github.com/chromaui/learnstorybook-code'
@@ -40,4 +40,4 @@ twitterShareText: 'I’m downloading Kontena! It’s a great dev tool for front 
 
 <h2>Template preview</h2>
 
-![shooply](/glovory/glovory.png)
+![glovory](/glovory/glovory.png)

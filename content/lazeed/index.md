@@ -1,6 +1,6 @@
 ---
 title: 'Lazeed HTML Template'
-description: "Lazeed is HTML template for food blogger or small food and beverage businesses. This template have various style as the main background and consist of several elements that able to customize by everyone. "
+description: 'Lazeed is HTML template for food blogger or small food and beverage businesses. This template have various style as the main background and consist of several elements that able to customize by everyone.'
 heroDescription: 'Lazeed is HTML template for food blogger or small food and beverage businesses.'
 overview: 'Lazeed is HTML template for food blogger or small food and beverage businesses. This template have various style as the main background and consist of several elements that able to customize by everyone. Created using 4 bootstraps with responsive design. So will accesable on several device and screen size.'
 order: 1
