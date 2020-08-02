@@ -2,7 +2,7 @@
 title: 'Stevany HTML Template'
 description: 'Do you like Squarespace theme? This design comes from that.'
 heroDescription: 'Do you like Squarespace theme? This design comes from that. Stevany consist of responsive design, Squarespace color style, and easy to customize because created using Bootstrap 4.'
-overview: 'Do you like Squarespace theme? This design comes from that. Stevany consist of responsive design, Squarespace color style, and easy to customize because created using Bootstrap 4.'
+overview: Do you like Squarespace theme? This design comes from that. Stevany consist of responsive design, Squarespace color style, and easy to customize because created using Bootstrap 4.'
 order: null
 themeColor: '#EB8C74'
 codeGithubUrl: 'https://github.com/chromaui/learnstorybook-design-system'
@@ -22,6 +22,9 @@ authors:
       detail: 'Front End Developer',
     },
   ]
+contributors: [  ]
+
+twitterShareText: 'I’m downloading Kontena! It’s a great dev tool for front end template and components.'
 ---
 
 <div class="btn-download">

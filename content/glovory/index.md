@@ -25,7 +25,7 @@ authors:
       detail: 'Storybook core',
     },
   ]
-contributors: []
+contributors: [  ]
 ---
 
 <div class="btn-download">
