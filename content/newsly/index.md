@@ -29,6 +29,7 @@ contributors:
       detail: 'Design Systems at Auth0',
     },
   ]
+twitterShareText: 'I’m downloading Kontena! It’s a great dev tool for front end template and components.'
 ---
 
 <div class="btn-download">
