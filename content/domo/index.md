@@ -8,7 +8,9 @@ themeColor: '#A87E53'
 codeGithubUrl: 'https://github.com/chromaui/learnstorybook-code'
 heroAnimationName: 'float'
 toc:
-  ['homepage-basic']
+  [
+  'homepage-basic',
+  ]
 coverImagePath: '/domo/cover.jpg'
 thumbImagePath: '/domo/thumb.jpg'
 contributorCount: '2'
