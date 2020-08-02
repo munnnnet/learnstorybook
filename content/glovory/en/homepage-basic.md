@@ -6,7 +6,6 @@ description: 'This is a homepage basic in Glovory. These elements will be update
 
 Glovory is the simple HTML template that created with bootstrap 4 and designed for various screen size. This template is simple and able to edit as you need in an easy way. 
 
-
 ## Head CSS and JS Sources
 
 ```html
